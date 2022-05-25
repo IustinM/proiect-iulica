@@ -30,20 +30,7 @@ body {
   min-height: 50px;
   margin: 0rem 0.7rem;
 }
-footer {
-  min-height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.credentials {
-  font-size: 0.85rem;
-  padding: 0rem 0.8rem;
-}
-.credentials span {
-  font-weight: bold;
-}
+
 @media screen and (max-width: 1000px) {
   .text-center h2 {
     font-size: 2rem;
