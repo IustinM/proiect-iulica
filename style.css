@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", "sans-serif";
+}
+
+.text-center {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+}
+.text-center h2 {
+  font-size: 4rem;
+}
+.virus {
+  display: flex;
+  align-items: center;
+}
+.virus p {
+  font-size: 2rem;
+}
+.img {
+  width: 55px;
+  min-height: 50px;
+  margin: 0rem 0.7rem;
+}
+footer {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.credentials {
+  font-size: 0.85rem;
+  padding: 0rem 0.8rem;
+}
+.credentials span {
+  font-weight: bold;
+}
+@media screen and (max-width: 1000px) {
+  .text-center h2 {
+    font-size: 2rem;
+  }
+  .virus p {
+    font-size: 1rem;
+  }
+  .img {
+    width: 35px;
+    min-height: 30px;
+  }
+}
